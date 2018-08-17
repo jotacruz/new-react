@@ -11,6 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <input name="teste" value={this.state.teste} />
+        <h1>{this.state.teste}</h1>
       </div>
     );
   }
