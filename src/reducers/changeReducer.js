@@ -1,7 +1,7 @@
 import { CHANGE_UPDATE_VALUE } from '../actions/actionsTypes';
 
 const initialValue = {
-    value: ''
+    value: 'VALOR INICIAL'
 }
 
 export const changeReducer = (state = initialValue, action) => {

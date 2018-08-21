@@ -29,8 +29,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <input name="teste" onChange={this.input} value={newValue} />
-        <h1>{newValue}</h1>
+        <input name="teste" onChange={this.inputChange} value={value} />
+        <h1>{value}</h1>
       </div>
     );
   }
